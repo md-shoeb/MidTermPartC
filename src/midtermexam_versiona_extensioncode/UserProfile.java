@@ -61,6 +61,11 @@ public class UserProfile
         this.genre = genre;
     }
     
+    public void getAllGenres(){
+        for(int i = 0; i < genres.length;i++)
+            System.out.println(genres[i]);
+    }
+    
     
     
     
